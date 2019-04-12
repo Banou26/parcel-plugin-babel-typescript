@@ -1,7 +1,8 @@
 {
   "name": "parcel-plugin-babel-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
+  "repository": "https://github.com/Banou26/parcel-plugin-babel-typescript",
   "license": "MIT",
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.2.0",
