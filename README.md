@@ -13,8 +13,9 @@ You have to install my plugin and the babel plugins you want to use.
 
 `npm install parcel-plugin-babel-typescript @babel/plugin-proposal-optional-chaining`
 
-Then you need to add the babel configuration needed by my plugin, which is 
+Then you need to add the babel configuration needed by my plugin, which is
 
+.babelrc
 ```json
 {
   "presets": [
@@ -25,6 +26,7 @@ Then you need to add the babel configuration needed by my plugin, which is
 
 And the configuration needed by the babel plugin of your choice
 
+.babelrc
 ```json
 {
   "presets": [
