@@ -40,11 +40,11 @@ And the configuration needed by the babel plugin of your choice
 
 And voila, you can use TS/JSX features with Babel's magic at the same time !
 
-```js
+```tsx
 const foo: number = 1
 const bar = foo as unknown as string
 
-const baz = undefined?.qux
-
 const jsxStuff = <div></div>
+
+const baz = undefined?.qux
 ```
